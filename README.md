@@ -1,0 +1,1 @@
+The limitation of the in memory cache implementation is that the data will be lost whenever a node goes down. To locally persist the data, Chronicle Map is used to store the key-value hashmap into a file system. A new class called ChronicleMapCache has been implemented using interface CacheInterface. 
